@@ -14,7 +14,7 @@ describe('API', () => {
   beforeEach(async () => {
     await db("users").truncate();
   })
-  describe('Register User', () => {
+  describe('Register', () => {
     it('recieves 201 when user is registered', () => {
       return request(server)
       .post('/api/auth/register')
@@ -27,7 +27,7 @@ describe('API', () => {
 
     },99999)
   })
-  describe('Register User Failure', () => {
+  describe('Register', () => {
     it('should 500 if password is not submitted', () => {
       return request(server)
       .post('/api/auth/register')
