@@ -1,7 +1,7 @@
 {
   "name": "nodeauth-challenge",
   "version": "1.0.0",
-  "description": "Authentication Sprint Challenge",
+  "description": "Authentication Sprint Challenge :)",
   "main": "index.js",
   "scripts": {
     "test:watch": "cross-env NODE_ENV=testing AUTH_SECRET=secret jest --watch",
@@ -27,7 +27,7 @@
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.20.4",
+    "knex": "^0.20.15",
     "sqlite3": "^4.1.1"
   },
   "jest": {
